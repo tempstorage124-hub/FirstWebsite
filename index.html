@@ -2,16 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   
-    <title>My Website</title>
+    <title>Sample Web Page</title>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple HTML page.</p>
-    
-    <section>
-        <h2>About Me</h2>
-        <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
+    <!-- Main heading of the page -->
+    <h1>Welcome to My Sample Web Page</h1>
+
+    <!-- Navigation section with anchor tags for links -->
+    <nav>
+        <!-- Anchor tag for navigation -->
+        <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Section element to group related content -->
+    <section id="about">
+        <!-- Subheading inside section -->
+        <h2>About This Page</h2>
+        <!-- Paragraph tag for text content -->
+        <p>This page demonstrates <strong>commonly</strong> used HTML tags with comments for learning purposes.</p>
+        <!-- Image tag to display an image -->
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
     </section>
+
+    <!-- Another section for contact info -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>You can reach us via <a href="mailto:info@example.com">email</a>.</p>
+    </section>
+
+    <!-- Unordered list for listing items -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <!-- Ordered list for steps or ranking -->
+    <ol>
+        <li>Step One</li>
+        <li>Step Two</li>
+        <li>Step Three</li>
+    </ol>
+
+    <!-- Table to display tabular data -->
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ayush</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>Designer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Form for user input -->
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Footer for page information -->
+    <footer>
+        <p>&copy; 2025 My Sample Web Page</p>
+    </footer>
 </body>
 </html>
